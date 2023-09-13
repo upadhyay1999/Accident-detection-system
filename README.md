@@ -18,6 +18,7 @@ To contribute to this project, knowledge of basic python scripting, Machine Lear
 This program includes 4 things.
 
 data: Kaggle dataset on Accident Detection from CCTV footage.
+
 accident-classification.ipynb: This is a jupyter notebook that generates a model to classify the above data. This file generates two important files model.json and model_weights.h5.
 detection.py: This file loads the Accident Detection system with the help of model.json and model_weights.h5 files.
 camera.py: It packs the camera and executes the detection.py file on the video dividing it frame by frame and displaying the percentage of the prediction in the accident (if present) in the frame.
